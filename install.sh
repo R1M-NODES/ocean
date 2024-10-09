@@ -14,7 +14,7 @@ bash <(curl -s https://raw.githubusercontent.com/R1M-NODES/utils/master/docker-i
 printGreen "Configuring UFW rules"
 sudo ufw allow 8004/tcp
 sudo ufw allow 9004/tcp
-sudo ufw allow 9005/tcp
+sudo ufw allow 9003/tcp
 sudo ufw allow 9006/tcp
 sudo ufw allow 9007/tcp
 
