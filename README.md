@@ -13,6 +13,8 @@ docker-compose down
 
 ```
 cd && \ rm -rf ocean
-rm -rf ocean
 ```
 
+```
+rm -rf ocean
+```
