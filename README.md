@@ -19,6 +19,14 @@ cd && \ rm -rf ocean
 rm -rf ocean
 ```
 
+
+Restart Ocean 
+
+```
+cd ocean && \
+docker-compose restart
+```
+
 Port
 
 ```
