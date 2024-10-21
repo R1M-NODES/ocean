@@ -11,19 +11,28 @@ cd ocean && \
 docker-compose down
 ```
 
-Run:
-
 ```
-sudo curl https://cli.nexus.xyz/install.sh | sh
+cd && \ rm -rf ocean
 ```
 
 ```
 rm -rf ocean
 ```
 
-Save Prover ID file
+
+Restart Ocean 
 
 ```
-You'll get a prover-id file in /root/.nexus/ representing your unique contribution ID to Prover Node
+cd ocean && \
+docker-compose restart
 ```
 
+Port
+
+```
+8004
+9004
+9003
+9006
+9007
+```
