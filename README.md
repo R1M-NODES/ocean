@@ -1,7 +1,7 @@
 <b> Install Ocean </b>
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/R1M-NODES/ocean/master/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/R1M-NODES/nexus/master/install.sh)
 ```
 
 Deleta Ocean 
@@ -11,28 +11,19 @@ cd ocean && \
 docker-compose down
 ```
 
+Run:
+
 ```
-cd && \ rm -rf ocean
+sudo curl https://cli.nexus.xyz/install.sh | sh
 ```
 
 ```
 rm -rf ocean
 ```
 
-
-Restart Ocean 
-
-```
-cd ocean && \
-docker-compose restart
-```
-
-Port
+Save Prover ID file
 
 ```
-8004
-9004
-9003
-9006
-9007
+You'll get a prover-id file in /root/.nexus/ representing your unique contribution ID to Prover Node
 ```
+
