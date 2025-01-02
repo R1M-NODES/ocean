@@ -36,3 +36,11 @@ Port
 9006
 9007
 ```
+
+Delete Ocean 
+
+```
+docker stop ocean-node
+docker rm ocean-node
+rm -rf ocean
+```
